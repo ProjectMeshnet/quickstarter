@@ -23,8 +23,7 @@
         	&raquo; Click here to learn more!
         </div>
         <div class="answer">
-            Now that we hit our goal for the meshnet routers, we are going full speed ahead at windows support! We need to raise
-            $3,500 now.
+		Now we're going to get the meshnet on Windows 7.
         </div>
         </center>
         
