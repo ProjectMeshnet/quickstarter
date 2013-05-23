@@ -33,8 +33,8 @@
                         <span>of $<?php echo $goal; ?></span>
                     </li>
                     <li class="stats" id="days">
-                    	2
-                    	<span> months left</span>
+                    	<?php echo $days_remaining; ?>
+                    	<span> days left</span>
                     </li>
                 </ul>
                 
