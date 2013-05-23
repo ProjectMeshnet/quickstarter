@@ -1,12 +1,14 @@
 <?php
 
-	$json = file_getcontents("http://blockchain.info/address/1LQGG3P73ioV2e9jo8uzyCjnEJYxYpkUMR?format=json");
-	$data = json_decode($json, TRUE);
+	//$json = file_getcontents("http://blockchain.info/address/1LQGG3P73ioV2e9jo8uzyCjnEJYxYpkUMR?format=json");
+	//$data = json_decode($json, TRUE);
 
-	$backers = 6 + $data[2];
+	//$backers = 6 + $data[2];
 
 	//$btc = $data[3].substring(0)+'.'+$data[3].substring(1);;
+	
 
+	$backers = 10;
 	$btc = 3.21;
 
 	$stripe = 555;
