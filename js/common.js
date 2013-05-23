@@ -12,4 +12,8 @@ $(document).ready(function(){
 		$(this).next().slideToggle(500);
 	});
 	
+	$("#btc").click(function() {
+		alert("Upon donating with Bitcoin, please email us at support@meshwith.me");
+	});
+	
 });
