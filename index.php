@@ -1,3 +1,6 @@
+<?php require("config.php"); ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,12 +35,12 @@
             <div class="backing">
                 <ul>
                     <li class="stats" id="backers">
-                        9
+                        <?php echo $backers ?>
                         <span>backers</span>
                     </li>
                     <li class="stats">
-                        $811.86
-                        <span>of $3,500</span>
+                        $<?php echo $total ?>
+                        <span>of <?php echo $goal ?></span>
                     </li>
                     <li class="stats" id="days">
                     	2
@@ -46,7 +49,7 @@
                 </ul>
                 
                 <div id='progress_bg' class='small'>
-                <div id='progress' class='' style='width: 23%;'>
+                <div id='progress' class='' style='width: <?php echo $percent ?>%;'>
                 </div>
             </div>
             
