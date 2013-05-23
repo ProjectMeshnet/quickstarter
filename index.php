@@ -18,6 +18,9 @@
     	<h2 class="slogan">
 		Bring the meshnet to the mainstream, help bring cjdns support to Windows!
         </h2>
+	<div class="countdown">
+		
+	</div>
         <div class="wrap">
             <div class="video">
             	<iframe src="https://player.vimeo.com/video/45819231?title=0&amp;byline=0&amp;portrait=0" width="512" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -31,10 +34,6 @@
                     <li class="stats">
                         $<?php echo $total; ?>
                         <span>of $<?php echo $goal; ?></span>
-                    </li>
-                    <li class="stats" id="days">
-                    	<?php echo $days_remaining; ?>
-                    	<span> days left</span>
                     </li>
                 </ul>
                 
