@@ -25,12 +25,12 @@
             <div class="backing">
                 <ul>
                     <li class="stats" id="backers">
-                        <?php echo $backers ?>
+                        <?php echo $backers; ?>
                         <span>backers</span>
                     </li>
                     <li class="stats">
-                        $<?php echo $total ?>
-                        <span>of $<?php echo $goal ?></span>
+                        $<?php echo $total; ?>
+                        <span>of $<?php echo $goal; ?></span>
                     </li>
                     <li class="stats" id="days">
                     	2
@@ -39,7 +39,7 @@
                 </ul>
                 
                 <div id='progress_bg' class='small'>
-                <div id='progress' class='' style='width: <?php echo $percent ?>%;'>
+                <div id='progress' class='' style='width: <?php echo $percent; ?>%;'>
                 </div>
             </div>
             
