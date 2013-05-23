@@ -5,7 +5,9 @@
 
 	$backers = 6 + $data[2];
 
-	$btc = $data[3].substring(0)+'.'+$data[3].substring(1);;
+	//$btc = $data[3].substring(0)+'.'+$data[3].substring(1);;
+
+	$btc = 3.21;
 
 	$stripe = 555;
 	$goal = 3500;
