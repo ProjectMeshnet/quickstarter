@@ -1,20 +1,23 @@
 <?php
 
-	//$json = file_getcontents("http://blockchain.info/address/1LQGG3P73ioV2e9jo8uzyCjnEJYxYpkUMR?format=json");
-	//$data = json_decode($json, TRUE);
+        $json = file_get_contents("http://blockchain.info/address/1LQGG3P73ioV2e9jo8uzyCjnEJYxYpkUMR?format=json");
+        $data = json_decode($json, TRUE);
 
-	//$backers = 6 + $data[2];
+        $stripebackers = 7;
+        $backers = $data["n_tx"] + $stripebackers;
 
-	//$btc = $data[3].substring(0)+'.'+$data[3].substring(1);;
-	
+        $btc = $data["final_balance"];
+        $btc_final = $btc/100000000;
 
-	$backers = 10;
-	$btc = 3.21;
+        $stripe = 680;
+        $goal = 3500;
 
-	$stripe = 555;
-	$goal = 3500;
+        $ratejson = file_get_contents("http://blockchain.info/ticker");
+        $ratedata = json_decode($ratejson, TRUE);
 
-	$total = ($btc*125)+$stripe;
-	$percent = ($total/$goal)*100;
+        $rate = $ratedata["USD"]["15m"];
+
+        $total = number_format((float)($btc_final*$rate), 2, ".", "")+$stripe;
+        $percent = ($total/$goal)*100;
 
 ?>

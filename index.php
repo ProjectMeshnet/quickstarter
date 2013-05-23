@@ -16,17 +16,8 @@
     </div>
     <div class="main">
     	<h2 class="slogan">
-        	We hit our goal for the meshnet routers!
+		Bring the meshnet to the mainstream, help bring cjdns support to Windows!
         </h2>
-        <center>
-        <div class="question">
-        	&raquo; Click here to learn more!
-        </div>
-        <div class="answer">
-		Now we're going to get the meshnet on Windows 7.
-        </div>
-        </center>
-        
         <div class="wrap">
             <div class="video">
             	<iframe src="https://player.vimeo.com/video/45819231?title=0&amp;byline=0&amp;portrait=0" width="512" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
