@@ -6,6 +6,6 @@
 	$goal = 3500;
 
 	$total = ($btc*125)+$stripe;
-	$percent = $total/$goal;
+	$percent = ($total/$goal)*100;
 
 ?>
