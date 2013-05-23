@@ -40,7 +40,7 @@
                     </li>
                     <li class="stats">
                         $<?php echo $total ?>
-                        <span>of <?php echo $goal ?></span>
+                        <span>of $<?php echo $goal ?></span>
                     </li>
                     <li class="stats" id="days">
                     	2
