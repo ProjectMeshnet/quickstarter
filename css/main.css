@@ -424,3 +424,47 @@ h3 {
 	font-size: 16px;
 }
 
+/*
+==============================
+         COUNTDOWN
+==============================
+*/
+
+.countdown_show1 .countdown_section {
+	width: 98%;
+}
+
+.countdown_show2 .countdown_section {
+	width: 48%;
+}
+
+.countdown_show3 .countdown_section {
+	width: 32.5%;
+}
+
+.countdown_show4 .countdown_section {
+	width: 24.5%;
+}
+
+.countdown_show5 .countdown_section {
+	width: 19.5%;
+}
+
+.countdown_show6 .countdown_section {
+	width: 16.25%;
+}
+
+.countdown_show7 .countdown_section {
+	width: 14%;
+}
+
+.countdown_section {
+    padding-top: 25px;
+	float: left;
+	font-size: 15px;
+	text-align: center;
+}
+
+.countdown_amount {
+	font-size: 200%;
+}
