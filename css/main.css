@@ -431,7 +431,7 @@ h3 {
 
 #progress_btc {
     height: 20px !important;
-    background-color: #1392dc;
+    background-color: #069df4;
     min-width: 2%;
     max-width: 100%;
     display: inline-block;
@@ -440,7 +440,7 @@ h3 {
 
 #progress_str {
     height: 20px !important;
-    background-color: #069df4;
+    background-color: #f49d06;
     display: inline-block;
     min-width: 2%;
     max-width: 100%;
