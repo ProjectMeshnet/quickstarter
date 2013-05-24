@@ -22,9 +22,7 @@
 	<h4 class="center">
                 Time left
         </h4>
-        <div class="countdown">
-                
-        </div>
+        <div class="countdown"></div>
         <div class="wrap">
             <div class="video">
             	<iframe src="https://player.vimeo.com/video/45819231?title=0&amp;byline=0&amp;portrait=0" width="512" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -41,8 +39,15 @@
                     </li>
                 </ul>
 
-                <div id='progress_bg' class='small'>
-                <div id='progress' class='' style='width: <?php echo $percent; ?>%;'>
+		<div class="progress_bar">
+			<div id="progress_btc"> <?php echo $percent_btc; ?> </div>
+			<div id="progress_str"> <?php echo $percent_str; ?> </div>
+		</div>
+		<!--
+        		OLD PROGRESS BAR
+		        <div id='progress_bg' class='small'>
+	                <div id='progress' class='' style='width: <?php echo $percent; ?>%;'>
+		-->
                 </div>
             </div>
 
