@@ -448,3 +448,22 @@ h3 {
     text-align: left !important;
 }
 
+.holdcenter {
+    
+}
+
+.btc {
+    background-color: #069df4;
+    display: inline-block;
+    font-size: 12px;
+    color: #FFF;
+    padding: 5px;
+}
+
+.str {
+    display: inline-block;
+    background-color: #f49d06;
+    font-size: 12px;
+    color: #FFF;
+    padding: 5px;
+}
