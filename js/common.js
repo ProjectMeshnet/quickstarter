@@ -17,5 +17,5 @@ $(document).ready(function(){
 	});
 	
 	// countdown
-	$(".countdown").countdown({since: new Date(2013, 7-1, 30)});
+	$(".countdown").countdown({until: new Date(2013, 7-1, 30)});
 });
