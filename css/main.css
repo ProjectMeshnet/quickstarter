@@ -96,6 +96,7 @@ h6 {
 	display: inline-block;
 	width: 400px;
 	padding: 25px;
+	text-align: center;
 }
 
 iframe {
@@ -113,6 +114,10 @@ iframe {
 
 .main .backing #days {
 	border-right: none;
+}
+
+.main .backing .stats:last-child {
+    border: none;
 }
 
 .main .backing .stats {
@@ -418,3 +423,4 @@ h3 {
 	text-align: right;
 	font-size: 16px;
 }
+
