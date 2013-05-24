@@ -26,7 +26,7 @@
             	<iframe src="https://player.vimeo.com/video/45819231?title=0&amp;byline=0&amp;portrait=0" width="512" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
             </div>
             <div class="backing">
-                <ul>
+                <ul class="center">
                     <li class="stats" id="backers">
                         <?php echo $backers; ?>
                         <span>backers</span>

@@ -96,6 +96,9 @@ h6 {
 	display: inline-block;
 	width: 400px;
 	padding: 25px;
+}
+
+.center {
 	text-align: center;
 }
 
