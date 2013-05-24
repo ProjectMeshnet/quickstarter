@@ -40,8 +40,8 @@
                 </ul>
 
 		<div class="progress_bar">
-			<div id="progress_btc"> <?php echo $percent_btc; ?> </div>
-			<div id="progress_str"> <?php echo $percent_str; ?> </div>
+			<div id="progress_btc" width="<?php echo $percent_btc; ?>"></div>
+			<div id="progress_str" width="<?php echo $percent_str; ?>"></div>
 		</div>
 		<!--
         		OLD PROGRESS BAR
