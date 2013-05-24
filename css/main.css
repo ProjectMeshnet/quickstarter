@@ -98,6 +98,11 @@ h6 {
 	padding: 25px;
 }
 
+h4.center {
+    padding-top: 20px;
+    color: #999;
+}
+
 .center {
 	text-align: center;
 }
@@ -222,8 +227,10 @@ iframe {
 	display: block;
 	color: #FFF;
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.37);
-	-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 -1px rgba(0, 0, 0, 0.22);
-	-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 -1px 1px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 -1px rgba(0, 0, 0, 
+0.22);
+	-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 -1px 1px rgba(0, 
+0, 0, 0.22);
 	background-image: #0e96e4;
 	background-image: -moz-linear-gradient(90deg, #0e96e4 0%, #02a0fa 100%);
 	background-image: -o-linear-gradient(90deg, #0e96e4 0%, #02a0fa 100%);
@@ -235,9 +242,12 @@ iframe {
 }
 
 .blue_button:hover {
-	-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 -1px 1px rgba(0, 0, 0, 0.22);
-	-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 -1px 1px rgba(0, 0, 0, 0.22);
-	box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 -1px 1px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 -1px 1px rgba(0, 0, 
+0, 0.22);
+	-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 -1px 1px rgba(0, 
+0, 0, 0.22);
+	box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 -1px 1px rgba(0, 0, 0, 
+0.22);
 	background-image: -moz-linear-gradient(90deg, #2da4e9 0%, #21aeff 100%);
 	background-image: -o-linear-gradient(90deg, #2da4e9 0%, #21aeff 100%);
 	background-image: -webkit-linear-gradient(90deg, #2da4e9 0%, #21aeff 100%);
@@ -246,9 +256,12 @@ iframe {
 }
 
 .blue_button:active {
-	-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 3px 5px rgba(0, 0, 0, 0.22);
-	-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 3px 5px rgba(0, 0, 0, 0.22);
-	box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 3px 5px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 3px 5px rgba(0, 0, 
+0, 0.22);
+	-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 3px 5px rgba(0, 
+0, 0, 0.22);
+	box-shadow: 0 1px 1px rgba(255, 255, 255, 0.92), inset 0 3px 5px rgba(0, 0, 0, 
+0.22);
 	background-image: -moz-linear-gradient(90deg, #039ff7 0%, #039ff7 100%);
 	background-image: -o-linear-gradient(90deg, #039ff7 0%, #039ff7 100%);
 	background-image: -webkit-linear-gradient(90deg, #039ff7 0%, #039ff7 100%);
@@ -430,41 +443,16 @@ h3 {
 ==============================
 */
 
-.countdown_show1 .countdown_section {
-	width: 98%;
-}
-
-.countdown_show2 .countdown_section {
-	width: 48%;
-}
-
-.countdown_show3 .countdown_section {
-	width: 32.5%;
-}
-
-.countdown_show4 .countdown_section {
-	width: 24.5%;
-}
-
-.countdown_show5 .countdown_section {
-	width: 19.5%;
-}
-
-.countdown_show6 .countdown_section {
-	width: 16.25%;
-}
-
-.countdown_show7 .countdown_section {
-	width: 14%;
-}
-
 .countdown_section {
     padding-top: 25px;
 	float: left;
 	font-size: 15px;
 	text-align: center;
+	width: 25%;
+	color: #999;
 }
 
 .countdown_amount {
 	font-size: 200%;
 }
+
