@@ -143,45 +143,6 @@ iframe {
 	display: block;
 }
 
-#progress_bg {
-	width: 350px;
-	margin: auto;
-	margin-top: 10px;
-	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.41);
-	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.41);
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.41);
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 30px;
-	background: #DDD;
-}
-
-#progress_bg #progress {
-	height: 40px;
-	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.59);
-	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.59);
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.59);
-	background-image: -moz-linear-gradient(90deg, #1392dc 0%, #069df4 100%);
-	background-image: -o-linear-gradient(90deg, #1392dc 0%, #069df4 100%);
-	background-image: -webkit-linear-gradient(90deg, #1392dc 0%, #069df4 100%);
-	background-image: linear-gradient(90deg, #1392dc 0%, #069df4 100%);
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 30px;
-	min-width: 2%;
-	max-width: 100%;
-	display: inline-block;
-	text-align: left !important;
-}
-
-.small {
-	height: 20px !important;
-}
-
-.small #progress {
-	height: 20px !important;
-}
-
 #reserve_container {
 	padding-top: 20px;
 	border-top: 1px solid #FFF;
@@ -454,5 +415,36 @@ h3 {
 
 .countdown_amount {
 	font-size: 200%;
+}
+
+/*
+==============================
+        PROGRESS BAR
+==============================
+*/
+
+.progress_bar {
+    background-color: #DDD;
+    height: 20px;
+    width: 100%;
+}
+
+#progress_btc {
+    height: 20px !important;
+    background-color: #1392dc;
+    min-width: 2%;
+    max-width: 100%;
+    display: inline-block;
+    text-align: left !important;
+}
+
+#progress_str {
+    height: 20px !important;
+    background-color: #069df4;
+    display: inline-block;
+    min-width: 2%;
+    max-width: 100%;
+    margin-left: -6px;
+    text-align: left !important;
 }
 
