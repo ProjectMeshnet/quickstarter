@@ -16,4 +16,6 @@ $(document).ready(function(){
 		alert("Upon donating with Bitcoin, please email us at support@meshwith.me");
 	});
 	
+	// countdown
+	$(".countdown").countdown({since: new Date(2013, 7-1, 30)});
 });

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="img/favicon.png">
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
 </head>
 <body>
