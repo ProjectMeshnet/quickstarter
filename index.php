@@ -44,6 +44,10 @@
 				<div id="progress_btc" style="width: <?php echo $percent_btc; ?>%"></div>
 				<div id="progress_str" style="width: <?php echo $percent_str; ?>%"></div>
 			</div>
+			<div class="center">
+				<div class="btc">Paid with Bitcoins</div>
+				<div class="str">Paid with Stripe</div>
+			</div>
 		</div>
             <div id="reserve_container">
                 <p id="ship_date">First Batch ships August 2013 </p>
