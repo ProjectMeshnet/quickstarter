@@ -19,6 +19,12 @@
     	<h2 class="slogan">
 		Bring the meshnet to the mainstream; help bring cjdns support to Windows!
         </h2>
+	<h4 class="center">
+                Time left
+        </h4>
+        <div class="countdown">
+                
+        </div>
         <div class="wrap">
             <div class="video">
             	<iframe src="https://player.vimeo.com/video/45819231?title=0&amp;byline=0&amp;portrait=0" width="512" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -34,12 +40,12 @@
                         <span>of $<?php echo $goal; ?></span>
                     </li>
                 </ul>
-                
+
                 <div id='progress_bg' class='small'>
                 <div id='progress' class='' style='width: <?php echo $percent; ?>%;'>
                 </div>
             </div>
-            
+
             <div id="reserve_container">
                 <p id="ship_date">First Batch ships August 2013 </p>
                 <a href="preorder/checkout" class="blue_button reserve">Pledge Now</a>
@@ -49,14 +55,8 @@
                 </div>
             </div>
         </div>
-	</div> 
-	<h4 class="center">
-                Time left
-        </h4>
-        <div class="countdown">
-                
-        </div>
-    
+	</div>
+
     <div class="big_wrapper">
         <div class="wrapper" id="one">
             <div class="point_copy">
