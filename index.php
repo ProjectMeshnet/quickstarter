@@ -17,8 +17,11 @@
     </div>
     <div class="main">
     	<h2 class="slogan">
-		Bring the meshnet to the mainstream, help bring cjdns support to Windows!
+		Bring the meshnet to the mainstream; help bring cjdns support to Windows!
         </h2>
+	<h4 class="center">
+		Time left:
+	</h4>
 	<div class="countdown">
 		
 	</div>
