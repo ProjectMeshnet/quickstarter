@@ -45,14 +45,6 @@
 				<div id="progress_str" style="width: <?php echo $percent_str; ?>%"></div>
 			</div>
 		</div>
-		<!--
-        		OLD PROGRESS BAR
-		        <div id='progress_bg' class='small'>
-	                <div id='progress' class='' style='width: <?php echo $percent; ?>%;'>
-		-->
-                </div>
-            </div>
-
             <div id="reserve_container">
                 <p id="ship_date">First Batch ships August 2013 </p>
                 <a href="preorder/checkout" class="blue_button reserve">Pledge Now</a>
