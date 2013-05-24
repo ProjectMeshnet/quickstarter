@@ -106,10 +106,6 @@ iframe {
 	display: inline-block;
 }
 
-.main ul {
-	display: inline-block;
-}
-
 .main .backing #backers {
 	border-left: none;
 	padding-left: 0;
