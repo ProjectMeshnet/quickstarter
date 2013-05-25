@@ -1,0 +1,3 @@
+<?php
+	Stripe::setApiKey("secretkey");
+?>
