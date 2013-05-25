@@ -142,10 +142,10 @@
     	<h3>Frequently Asked Questions</h3>
         
         <div class="question">
-        	&raquo; What is Project Meshnet, cjdns, Hyperboria and the Seattle Meshnet Project?
+        	&raquo; What is Project Meshnet, cjdns and Hyperboria?
         </div>
         <div class="answer">
-            Project Meshnet is a colation of meshnet groups that works to promote the development of local meshnets. Cjdns is a networking suite that is commonly used to set up local meshnets, and Hyperboria is what we call the networkof cjdns nodes that weave in and out of both local meshnets and the internet. And on a closing note, the Seattle Meshnet Project is a local meshnet group based out of Seattle that has organized this crowdfunding project.
+            Project Meshnet was created out of the /r/darknetplan community in order to fight back against Internet censorship by corporations and governments around the world. It aims to use a combination of software and hardware to achieve the goal of a censorship-free Internet. The software component, called Cjdns, is being used right now to create a network called Hyperboria. Hyperboria is a network that operates securely over the current Internet infrastructure. Along with this network, Project Meshnet is also working to help setup hardware installations in communities around the globe, creating mesh "islands", which will then tie into Hyperboria. These mesh islands are completely immune to any form of censorship.
         </div>
         
         <div class="question">
