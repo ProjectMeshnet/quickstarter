@@ -13,7 +13,7 @@ $(document).ready(function(){
 	});
 	
 	$("#btc").click(function() {
-		alert("Upon donating with Bitcoin, please email us at support@meshwith.me");
+		alert("Upon donating with Bitcoin, please email a signed message from the same address you as your donation came from to support@meshwith.me");
 	});
 	
 	// countdown
