@@ -467,3 +467,11 @@ h3 {
     color: #FFF;
     padding: 5px;
 }
+
+#paywithbtc {
+    display: none;
+    }
+
+#qr {
+    display: none;
+    }
