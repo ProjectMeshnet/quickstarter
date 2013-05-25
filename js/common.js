@@ -17,5 +17,7 @@ $(document).ready(function(){
 	});
 	
 	// countdown
-	$(".countdown").countdown({until: new Date(2013, 7-1, 30)});
+        if($(".countdown").length > 0) {
+		$(".countdown").countdown({until: new Date(2013, 7-1, 30)});
+	}
 });

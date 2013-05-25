@@ -19,7 +19,7 @@ href="mailto:support@meshwith.me">support@meshwith.me</a>.
             	Credit card
             </a>
             <a href="http://blockchain.info/address/1LQGG3P73ioV2e9jo8uzyCjnEJYxYpkUMR" class="blue_button pay" id="btc">
-            	Bitcoin :: 1LQGG3P73ioV2e9jo8uzyCjnEJYxYpkUMR
+               Bitcoin :: 1LQGG3P73ioV2e9jo8uzyCjnEJYxYpkUMR
             </a>
         </p>
     </div>
