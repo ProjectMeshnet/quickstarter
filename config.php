@@ -10,10 +10,12 @@
                 $stripebackers++;
         }
 
+	$btc_refunds = 1;
+
         $json = file_get_contents("http://blockchain.info/address/1LQGG3P73ioV2e9jo8uzyCjnEJYxYpkUMR?format=json");
         $data = json_decode($json, TRUE);
 
-        $backers = $data["n_tx"] + $stripebackers;
+        $backers = ($data["n_tx"]-($btc_refunds*2)) + $stripebackers;
 
         $btc = $data["final_balance"];
         $btc_final = $btc/100000000;
