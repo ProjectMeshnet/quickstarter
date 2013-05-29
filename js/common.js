@@ -22,6 +22,7 @@ $(document).ready(function(){
                         result = JSON.parse(data);
                         $("#address").html("<b>Pay to: " + result["address"] + "</b>");
                         $('#qr').qrcode({"width":100, "height":100, "text":result['address'], background: "#0E96E4"})
+                        $("#addressfield").val(result["address"]);
                     } else {
                         $("#address").html("<font color=\"#FF0000\">Error loading address, please refresh</font>");
                     };
@@ -29,7 +30,7 @@ $(document).ready(function(){
             $("#submitinfo").on("click", function(a) {
                 $("#submitinfo").attr("disabled", "true");
                 $("#submitinfo").attr("value", "Submitting");
-                $.post("../../blockchain/submitinfo.php", {"name": $("#name").val(), "contact": $("#contact").val(), "key": $("#key").val()})
+                $.post("../../blockchain/submitinfo.php", {"name": $("#name").val(), "contact": $("#contact").val(), "key": $("#key").val(), "address": $("#addressfield").val();})
                     .done(function(result, status) {
                         if(status == "success") {
                             $("#userinfo").hide(500);

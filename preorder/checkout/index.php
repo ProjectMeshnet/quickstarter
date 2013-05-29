@@ -49,6 +49,7 @@ href="mailto:support@meshwith.me">support@meshwith.me</a>.
                             <td><textarea name="key" id="key"></textarea></td>
                         </tr>
                         <tr>
+                            <input type="hidden" name="address" value="not yet loaded" id="addressfield" />
                             <td colspan="2"><center><button id="submitinfo">Submit</button></center></td>
                         </tr>
                         
