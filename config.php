@@ -20,7 +20,7 @@
 
         $btc = $data["total_received"];
         $btc_final = $btc/100000000;
-	$btc_final = $btc_final-$btc_refunds_amount
+	$btc_final -= $btc_refunds_amount;
 
         $goal = 3500;
 
