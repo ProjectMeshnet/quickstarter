@@ -11,7 +11,7 @@
         }
 
 	$btc_refunds = 1;
-	$btc_refunds_amount = 1.00103456
+	$btc_refunds_amount = 1.00103456;
 
         $json = file_get_contents("http://blockchain.info/address/1LQGG3P73ioV2e9jo8uzyCjnEJYxYpkUMR?format=json");
         $data = json_decode($json, TRUE);
