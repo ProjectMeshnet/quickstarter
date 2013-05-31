@@ -11,14 +11,18 @@
         }
 
 	$btc_refunds = 1;
+	$btc_refunds_amount = 1.00103456;
+
+	$number_of_payments = 2; //number of payments made, needs to be subtracted from the total backers
 
         $json = file_get_contents("http://blockchain.info/address/1LQGG3P73ioV2e9jo8uzyCjnEJYxYpkUMR?format=json");
         $data = json_decode($json, TRUE);
 
-        $backers = ($data["n_tx"]-($btc_refunds*2)) + $stripebackers;
+        $backers = (($data["n_tx"]-($btc_refunds*2))-$number_of_payments) + $stripebackers;
 
-        $btc = $data["final_balance"];
+        $btc = $data["total_received"];
         $btc_final = $btc/100000000;
+	$btc_final -= $btc_refunds_amount;
 
         $goal = 3500;
 
