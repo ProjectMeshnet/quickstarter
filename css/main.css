@@ -467,3 +467,7 @@ h3 {
     color: #FFF;
     padding: 5px;
 }
+
+.percent {
+    max-width: 100%;	
+}
