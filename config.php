@@ -1,8 +1,8 @@
 <?php
         require_once("./lib/Stripe.php");
 	require_once("api.php");
-        $charges = Stripe_Charge::all();
-        $data = $charges->data;
+        $transfers = Stripe_Tranfer::all();
+        $data = $transfers->data;
         $stripebackers = 0;
         $stripe = 0;
         foreach($data as $each) {
