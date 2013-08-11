@@ -20,9 +20,9 @@
 		Bring the meshnet to the mainstream; help bring cjdns support to Windows!
         </h2>
 	<h4 class="center">
-                Time left
+                <!--Time left-->
         </h4>
-        <div class="countdown"></div>
+        <!--<div class="countdown"></div>-->
         <div class="wrap">
             <div class="video">
             	<iframe src="https://player.vimeo.com/video/45819231?title=0&amp;byline=0&amp;portrait=0" width="512" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
