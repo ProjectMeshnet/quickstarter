@@ -133,7 +133,7 @@
     
     <div class="big_wrapper last">
         <div class="wrapper center">
-        	<h2>First Batch ships August 2013 </h2>
+        	<h2>First Batch ships early 2014 </h2>
         	<a href="/preorder/checkout" class="blue_button reserve">Pledge Now</a>
         </div>
     </div>
