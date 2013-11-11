@@ -50,7 +50,7 @@
                         <div class="str">Paid with Stripe</div>
                 </div>
             <div id="reserve_container">
-                <p id="ship_date">First Batch ships August 2013 </p>
+                <p id="ship_date">First batch ships early 2014 </p>
                 <a href="preorder/checkout" class="blue_button reserve">Pledge Now</a>
                 <p id="price">Only $125 to get a Hyperboria router!</p>
                 <p>Help us help the Internet, and get a router that will get you on Hyperboria. Your support helps to both develop cjdns, and expand the meshnet. Other reward tiers are offered below.</p>
