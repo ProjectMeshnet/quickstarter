@@ -133,7 +133,7 @@
     
     <div class="big_wrapper last">
         <div class="wrapper center">
-        	<h2>First Batch ships August 2013 </h2>
+        	<h2>First Batch ships Spring 2014</h2>
         	<a href="/preorder/checkout" class="blue_button reserve">Pledge Now</a>
         </div>
     </div>
@@ -172,7 +172,7 @@
     </div>
        
     <div class="footer">
-    	&copy; 2013 Project Meshnet
+    	&copy; 2014 Project Meshnet
     </div>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
